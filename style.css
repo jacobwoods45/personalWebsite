@@ -1,0 +1,139 @@
+
+    html {
+        scroll-behavior: smooth;
+      }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    
+}
+nav{
+    position: fixed;
+}
+li, a {
+    font-weight:500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    
+    float: right;
+    padding-left: 5px;
+    padding-top: 25px;
+    padding-right: 15px;
+   
+   
+}
+button{
+    background-color: rgb(39, 39, 39);
+  color: black;
+  border: 2px solid #555555;
+    
+}
+body{
+    font-family: 'Unica One', cursive;
+    height:100%;
+    color: #ffffff;
+    background-color: #131313;
+}
+nav h1{
+    padding-top: 40px;
+    padding-left: 15px;
+    float: left;
+    display: inline;
+    background: none;
+    
+    
+}
+
+.card-1 {
+    /* The image used */
+  /*  background-image: url("background.jpg"); */ 
+    /* Set a specific height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Yantramanav', sans-serif;
+  }
+  
+ 
+  
+  
+  .card-1-text h1{
+      text-align: center;
+      
+        font-size: 50px;
+        padding-top: 20%;
+      height: 600px;
+      
+      color: rgb(255, 255, 255);
+  }
+  .philosophy{
+      background-color: #5c5c5c36;
+      height: 10%;
+      text-align: center;
+      padding-top: 30px;
+  }
+  
+  
+  .emphasis{
+      color: rgb(35, 201, 201);
+    
+  }
+
+  
+  .portfolio-1{
+    display: flex;
+    background-color: rgba(59, 59, 59, 0.082);
+    padding-left: 30px;
+      padding-right: 30px;
+  }
+  .portfolio-text1 {
+      padding: 30px;
+      background-color: #131313;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  .portfolio-image1{
+      background-image: url(atom-clock.png);
+      background-size: cover;
+      background-position: center;
+      padding: 100px;
+      padding-left: 30px;
+      padding-right: 30px;
+      
+  }
+  .mywork{
+      text-align: center;
+      padding: 30px;
+      color: teal;
+      font-size: 30px;
+  }
+  .lets-start h1{
+    
+    color:white;
+    text-align:center;
+    padding-top: 100px;
+    
+    font-size: 100px;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
+
+  .lets-start h2{
+      text-align: center;
+      font-size:30px;
+  }
+  @keyframes example {
+    0%   {color: rgba(12, 12, 12)}
+    25%  {color: rgb(29, 226, 226);}
+    75%  {color: rgb(255, 255, 255);}
+    100% {color: rgba(12, 12, 12)}
+    
+  }
+  
